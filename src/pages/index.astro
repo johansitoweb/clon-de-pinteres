@@ -1,0 +1,189 @@
+---
+import Layout from '../layouts/Layout.astro';
+//import Card from '../components/Card.astro';
+import {Principalgaleria} from '../components/Principalgaleria.jsx';
+import Galeria from '../components/Galeria.astro';
+---
+
+<Layout title="Pinterest." description="Este es un clon de pinterest totalmente estatico">
+<ion-app>
+	<ion-content>
+		<style>
+			.example-content {
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  height: 100%;
+			}
+		  </style>
+		  
+		  <ion-tabs>
+			<ion-tab tab="home">
+			  <ion-nav id="home-nav"></ion-nav>
+			  <div id="home-page">
+				<ion-header>
+				  <ion-toolbar>
+					<ion-title><Principalgaleria/></ion-title>
+				  </ion-toolbar>
+				</ion-header>
+				<ion-content>
+				  <div class="">
+					
+					<Galeria/>
+
+				  </div>
+				</ion-content>
+			  </div>
+			</ion-tab>
+			<ion-tab tab="radio">
+			  <ion-nav id="radio-nav"></ion-nav>
+			  <div id="radio-page">
+				<ion-header>
+				  <ion-toolbar>
+					<ion-title>Radio</ion-title>
+				  </ion-toolbar>
+				</ion-header>
+				<ion-content>
+				  <div class="example-content">
+					
+
+<div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+    <button type="button" class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800">All categories</button>
+    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Shoes</button>
+    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Bags</button>
+    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Electronics</button>
+    <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Gaming</button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+    </div>
+</div>
+
+				  </div>
+				</ion-content>
+			  </div>
+			</ion-tab>
+			<ion-tab tab="library">
+			  <ion-nav id="library-nav"></ion-nav>
+			  <div id="library-page">
+				<ion-header>
+				  <ion-toolbar>
+					<ion-title>Library</ion-title>
+				  </ion-toolbar>
+				</ion-header>
+				<ion-content>
+				  <div class="example-content">
+					<div class="card bg-base-100 w-96 shadow-xl">
+						<figure>
+						  <img
+							src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+							alt="Shoes" />
+						</figure>
+						<div class="card-body">
+						  <h2 class="card-title">
+							Shoes!
+							<div class="badge badge-secondary">NEW</div>
+						  </h2>
+						  <p>If a dog chews shoes whose shoes does he choose?</p>
+						  <div class="card-actions justify-end">
+							<div class="badge badge-outline">Fashion</div>
+							<div class="badge badge-outline">Products</div>
+						  </div>
+						</div>
+					  </div>
+				  </div>
+				</ion-content>
+			  </div>
+			</ion-tab>
+			<ion-tab tab="search">
+			  <ion-nav id="search-nav"></ion-nav>
+			  <div id="search-page">
+				<ion-header>
+				  <ion-toolbar>
+					<ion-title>Search</ion-title>
+				  </ion-toolbar>
+				</ion-header>
+				<ion-content>
+				  <div class="example-content">Search content</div>
+				</ion-content>
+			  </div>
+			</ion-tab>
+			<ion-tab-bar slot="bottom">
+			  <ion-tab-button tab="home">
+				<ion-icon name="play-circle"></ion-icon>
+				Listen Now
+			  </ion-tab-button>
+			  <ion-tab-button tab="radio">
+				<ion-icon name="radio"></ion-icon>
+				Radio
+			  </ion-tab-button>
+			  <ion-tab-button tab="library">
+				<ion-icon name="library"></ion-icon>
+				Library
+			  </ion-tab-button>
+			  <ion-tab-button tab="search">
+				<ion-icon name="search"></ion-icon>
+				Search
+			  </ion-tab-button>
+			</ion-tab-bar>
+		  </ion-tabs>
+		  
+		  <script>
+			const homeNav = document.querySelector('#home-nav');
+			const homePage = document.querySelector('#home-page');
+			homeNav.root = homePage;
+		  
+			const radioNav = document.querySelector('#radio-nav');
+			const radioPage = document.querySelector('#radio-page');
+			radioNav.root = radioPage;
+		  
+			const libraryNav = document.querySelector('#library-nav');
+			const libraryPage = document.querySelector('#library-page');
+			libraryNav.root = libraryPage;
+		  
+			const searchNav = document.querySelector('#search-nav');
+			const searchPage = document.querySelector('#search-page');
+			searchNav.root = searchPage;
+		  </script>
+	</ion-content>
+</ion-app>
+
+</Layout>
+
+<style>
+	
+</style>
